@@ -1,0 +1,37 @@
+.mobile-view-card{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .mobile-view-card{
+        background-color: #a5233b;
+        padding-left: 8px;
+        padding-right: 5px;
+        display:block;
+        align-self: stretch;
+    }
+}
+
+.mb-view-heading{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
+.mb-view-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.addrees-text{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+}
+.address{
+    font-weight: 500;
+}
+.links{
+    font-weight: 400;
+    font-size: 15px;
+}
